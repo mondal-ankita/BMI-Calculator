@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+h1{
+    padding: 10px;
+}
+.user{
+    padding: 10px;
+}
+.user input{
+    background-color: wheat;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 0px;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 400px;
+}
+#sp{
+    padding:  1px 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#results{
+    background-color: wheat;
+    border: 2px solid black;
+    height: 30px;
+    width: 200px; 
+    border-radius: 5px;
+    align-items: center;
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    background-color: wheat;
+    border-radius: 7px;
+}
+#chart h3{
+    margin: 10px;
+    text-decoration: underline;
+}
+form button :hover{
+    background-color: yellowgreen;
+    transition: ease-in;
+    cursor: pointer;
+}
